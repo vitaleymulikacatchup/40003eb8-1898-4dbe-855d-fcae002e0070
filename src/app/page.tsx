@@ -13,7 +13,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="/images/logo.svg"
-          logoAlt="Peak Logo"
           navItems={[
             { name: "Hero", id: "hero" },
             { name: "About", id: "about" },
@@ -61,7 +60,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
-          logoAlt="Peak Logo"
           logoText="Peak"
           columns={[
             {
