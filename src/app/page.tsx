@@ -81,7 +81,6 @@ export default function Home() {
               ],
             },
           ]}
-          copyrightText="© 2023 Peak. All rights reserved."
         />
       </div>
     </SiteThemeProvider>
