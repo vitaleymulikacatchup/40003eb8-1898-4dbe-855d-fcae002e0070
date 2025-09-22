@@ -19,7 +19,7 @@ export default function Home() {
             { name: "About", id: "about" },
             { name: "How to Buy", id: "how-to-buy" },
             { name: "Tokenomics", id: "tokenomics" },
-            { name: "Footer", id: "footer" },
+            { name: "Footer", id: "footer" }
           ]}
           buttonText="Get Peak"
         />
@@ -38,7 +38,7 @@ export default function Home() {
           title="About Peak"
           descriptions={[
             "Peak is committed to delivering top-notch SaaS solutions.",
-            "Our mission is to drive innovation through technology.",
+            "Our mission is to drive innovation through technology."
           ]}
         />
       </div>
@@ -54,7 +54,7 @@ export default function Home() {
           tokenData={[
             { value: "10M", description: "Total Tokens" },
             { value: "5M", description: "Market Cap" },
-            { value: "2M", description: "Liquidity" },
+            { value: "2M", description: "Liquidity" }
           ]}
         />
       </div>
@@ -67,19 +67,19 @@ export default function Home() {
             {
               items: [
                 { label: "Privacy Policy", onClick: () => {} },
-                { label: "Terms of Service", onClick: () => {} },
+                { label: "Terms of Service", onClick: () => {} }
               ],
             },
             {
               items: [
                 { label: "Contact Us", onClick: () => {} },
-                { label: "Support", onClick: () => {} },
+                { label: "Support", onClick: () => {} }
               ],
             },
             {
               items: [
                 { label: "FAQ", onClick: () => {} },
-                { label: "Blog", onClick: () => {} },
+                { label: "Blog", onClick: () => {} }
               ],
             },
           ]}
